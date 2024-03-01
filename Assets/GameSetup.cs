@@ -44,7 +44,6 @@ public class GameSetup : MonoBehaviour
             _sticks[stickToIndex].PlaceTorus(torus);
         }
 
-        Debug.Log(stepCount);
         return stepCount;
     }
 }
